@@ -28,5 +28,3 @@ class Triangle extends Polygon {
   }
 }
 
-let tri = new Triangle([2,3,3,4])
-console.log(tri.isValid)
