@@ -16,11 +16,11 @@ class Polygon {
 
 class Triangle extends Polygon {
   get isValid() {
-    if(this.countSides == 3) {
-      if((this.sides[0]+this.sides[1] > this.sides[2]) && (this.sides[1]+this.sides[2] > this.sides[0]) && (this.sides[0]+this.sides[2] > this.sides[1]){
+    if (this.countSides == 3) {
+      if((this.sides[0]+this.sides[1] > this.sides[2]) && (this.sides[1]+this.sides[2] > this.sides[0]) && (this.sides[0]+this.sides[2] > this.sides[1])){
         return true
         } else {
-        return false}
+        return false
         }
     } else {
       return false
