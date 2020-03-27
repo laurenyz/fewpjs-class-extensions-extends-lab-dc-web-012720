@@ -8,6 +8,8 @@ class Polygon {
   }
   
   get perimeter() {
-    return this.sides.sum
+    let sum = 0
+    this.sides.reduce(side => sum += side)
+    return sum
   }
 }
