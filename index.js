@@ -9,7 +9,7 @@ class Polygon {
   
   get perimeter() {
     let sum = 0
-    total = this.sides.reduce(side => sum += side)
+    this.sides.forEach(side => sum += side)
     return total
   }
 }
