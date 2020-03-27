@@ -24,4 +24,4 @@ class Triangle extends Polygon {
   }
 }
 
-new Triangle([2,3,3])
+console.log(new Triangle([2,3,3])
